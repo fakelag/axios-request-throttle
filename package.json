@@ -2,7 +2,7 @@
 	"name": "axios-request-throttle",
 	"version": "1.0.0",
 	"description": "Utility for rate-limiting axios requests",
-	"main": "index.js",
+	"main": "lib/index.js",
 	"scripts": {
 		"test": "jest",
 		"build": "tsc"

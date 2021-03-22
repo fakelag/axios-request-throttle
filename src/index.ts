@@ -19,6 +19,5 @@ const use = (axios: AxiosInstance, cfg: Config) => {
 	});
 };
 
-export {
-	use,
-};
+export { use };
+export default { use };
