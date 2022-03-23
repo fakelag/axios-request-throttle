@@ -22,4 +22,6 @@ import axios from 'axios';
 import axiosThrottle from 'axios-request-throttle';
 
 axiosThrottle.use(axios, { requestsPerSecond: 5 });
+
+const response = axios.get() || axios.post() || axios.delete() || axios.request() || ...etc
 ```
